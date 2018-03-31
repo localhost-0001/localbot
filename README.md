@@ -24,6 +24,11 @@ CREATE TABLE bans (id varchar(30) NOT NULL, banned SMALLINT);
 ### Installing
 
 Fill out the config.json
+Open a command prompt, navigate to the folder where the bot is located in
+Now install the needed stuff by running
+```
+npm install
+```
 To run the bot, use following command in the command line 
 ```
 forever main.js start
