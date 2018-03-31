@@ -18,6 +18,10 @@ npm install forever -g
 ### Installing
 
 Fill out the config.json
+To run the bot, use following command in the command line 
+```
+forever main.js start
+```
 
 ## Built With
 
