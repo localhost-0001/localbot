@@ -1,0 +1,10 @@
+{
+    "token": "Bot-Token here",
+    "owner": "Put your discord id here",
+    "prefix":"-",
+    "perm":["localbotadmin", "Admin", "Owner"],
+    "sqlname": "put the mysql username here",
+    "sqlpw": "put the mysql password here",
+    "sqldat": "put the name of the sql database here",
+    "suggestchannel":"put the id of there channel where suggestions should go here"
+}

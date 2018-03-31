@@ -1,0 +1,20 @@
+{
+  "name": "localjs",
+  "version": "0.0.1",
+  "description": "Localbot in NODE.JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js",
+    "start": "node main.js"
+  },
+  "author": "localhost#6743",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "discord.js": "^11.1.2",
+    "opusscript": "^0.0.6",
+    "ytdl-core": "^0.18.5",
+    "mysql": "^2.15.0",
+    "discord-rpc":"^3.0.0-beta.9"
+  }
+}
