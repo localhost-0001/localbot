@@ -14,6 +14,12 @@ After that, run following command in the command line to install forever
 ```
 npm install forever -g
 ```
+Next, you need [Mysql](https://www.mysql.com/).
+Create a database and run following commands in mysql
+```
+CREATE TABLE chatfilter (id varchar(30) NOT NULL, filtered longtext NOT NULL);
+CREATE TABLE bans (id varchar(30) NOT NULL, banned SMALLINT);
+```
 
 ### Installing
 
@@ -27,7 +33,7 @@ forever main.js start
 
 * [Node.js](https://nodejs.org/en/) - The server framework used
 * [Forever](https://github.com/foreverjs/forever) - Used to not have to fix random crashes
-
+* [Mysql](https://www.mysql.com/) - Database
 
 ## Authors
 
@@ -44,5 +50,6 @@ What license?
 * https://github.com/foreverjs/forever
 * https://www.youtube.com/user/Zekrommaster110
 * https://www.youtube.com/watch?v=qmTfNpOaGaQ
+* http://anidiotsguide.gitbooks.io
 
 
