@@ -1,7 +1,6 @@
 
 const fs     = require('fs')
 const Embeds =  require('../embed.js')
-const bl =  require('../blocks.json')
 const config = JSON.parse(fs.readFileSync('./config.json', 'utf8'))
 const main =  require('../main.js')
 const con = main.con
